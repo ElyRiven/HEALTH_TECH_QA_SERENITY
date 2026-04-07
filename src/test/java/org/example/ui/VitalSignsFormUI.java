@@ -30,5 +30,5 @@ public class VitalSignsFormUI {
             .locatedBy("//button[@type='submit' and normalize-space()='Guardar']");
 
     public static final Target ERROR_MESSAGE = Target.the("vital signs error message")
-            .located(By.cssSelector("div.text-red-600.text-xs"));
+            .located(By.cssSelector("span.text-red-600.text-xs"));
 }
